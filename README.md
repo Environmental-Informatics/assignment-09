@@ -90,7 +90,6 @@ The following should be included in your GitHub repository:
 | 1.7. | Plot each dataset before and after correction has been made.  Use a single set of axis for each variable, and provide a legend that indiactes which is the original and which is after quality checking.  | 5.0 pts |
 | 1.8. | Output data that has passed the quality check into a new file with the same format as the input data file. | 5.0 pts |
 | 1.9. | Output information on failed checks to a separate Tab delimited file that can be imported into your Metadata file. | 5.0 pts |
-(25% total) To complete the assignment, turn in:
 | 2. | Working program | 5.0 pts |
 | 3. | Program should have clear and concise header and in-line comments | 2.5 pts |
 | 4. | Metadata file (PDF) that contains: | (7.5 pts) |
