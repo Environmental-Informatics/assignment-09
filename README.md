@@ -14,9 +14,9 @@ On completion of this lab, students will be able to:
 
 Two journal articles related to data quality checking:
 
-- Reek, T., S.R. Doty, and T.W. Owen, 1992: A Deterministic Approach to the Validation of Historical Daily Temperature and Precipitation Data from the Cooperative Network. Bull. Amer. Meteor. Soc., 73, 753–765, https://doi.org/10.1175/1520-0477(1992)073<0753:ADATTV>2.0.CO;2
+- Reek, T., S.R. Doty, and T.W. Owen, 1992: A Deterministic Approach to the Validation of Historical Daily Temperature and Precipitation Data from the Cooperative Network. Bull. Amer. Meteor. Soc., 73, 753–765, [https://doi.org/10.1175/1520-0477(1992)073<0753:ADATTV>2.0.CO;2](https://doi.org/10.1175/1520-0477(1992)073<0753:ADATTV>2.0.CO;2)
 
-- Hu, Q. and S. Feng, 2003: A Daily Soil Temperature Dataset and Soil Temperature Climatology of the Contiguous United States. J. Appl. Meteor., 42, 1139–1156, https://doi.org/10.1175/1520-0450(2003)042<1139:ADSTDA>2.0.CO;2
+- Hu, Q. and S. Feng, 2003: A Daily Soil Temperature Dataset and Soil Temperature Climatology of the Contiguous United States. J. Appl. Meteor., 42, 1139–1156, [https://doi.org/10.1175/1520-0450(2003)042<1139:ADSTDA>2.0.CO;2](https://doi.org/10.1175/1520-0450(2003)042<1139:ADSTDA>2.0.CO;2)
 
 ### The Lab Assignment
 
