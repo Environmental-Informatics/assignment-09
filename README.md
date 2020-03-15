@@ -40,11 +40,10 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
    - Imports the entire file in as a DataFrame, using date as the index.
    - Removes `No Data` values (defined as -999 in this file).
    - Completes the following data quality checks:
-     - **Check 1:** Check for gross errors: 0 ≤ P ≤ 25; -25≤ T ≤ 35, 0 ≤ WS ≤ 10.
+     - **Check 1:** Check for gross errors: 0 ≤ P ≤ 25; -25≤ T ≤ 35, 0 ≤ WS ≤ 10, replace values outside this range with NaN.
      - **Check 2:** Swap Tmax and Tmin when Tmax is less than Tmin.
-     - **Check 3:** Check for temperature range greater than 25°C
-   - Where a check is failed, replace the value with NaN.
-   - Record the number of data points replaced for each of the three check types.
+     - **Check 3:** Check for temperature range greater than 25°C, when range is exceeded replace both Tmax and Tmin with NaN.
+   - Record the number of data points replaced or fixed for each of the three check types.
    - Plot each dataset before and after correction has been made.
      - Use a single set of axis for each variable, and
      - provide a legend that indicates which variable is the original and which is after quality checking.
