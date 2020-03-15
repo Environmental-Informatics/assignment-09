@@ -38,12 +38,22 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
 2. Modify the Python script template called program-09.py so that it does the following:
 
    - Imports the entire file in as a DataFrame, using date as the index.
-   - Removes `No Data` values (defined as -999 in this file).
    - Completes the following data quality checks:
-     - **Check 1:** Check for gross errors: 0 ≤ P ≤ 25; -25≤ T ≤ 35, 0 ≤ WS ≤ 10, replace values outside this range with NaN.
-     - **Check 2:** Swap Tmax and Tmin when Tmax is less than Tmin.
-     - **Check 3:** Check for temperature range greater than 25°C, when range is exceeded replace both Tmax and Tmin with NaN.
-   - Record the number of data points replaced or fixed for each of the three check types.
+     - **Check 1:** Removes `No Data` values.
+       - Replace all values of -999 in this file with the NumPy NaN values (e.g., numpy.NaN or np.NaN).
+       - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "1. No Data"
+     - **Check 2:** Check for gross errors
+       - Apply the following error thresholds: 0 ≤ P ≤ 25; -25≤ T ≤ 35, 0 ≤ WS ≤ 10.
+       - Replace values outside this range with NaN.
+       - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "2. Gross Error"
+     - **Check 3:** Swap `Max Temp` and `Min Temp` when `Max Temp` is less than `Min Temp`.
+       - Check that all values of `Max Temp` are greater then for `Min Temp` for the current day's observations.
+       - Where they are not, swap the values.
+       - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "3. Swapped"
+     - **Check 4:** Check for daily temperature range exceedence.
+        - Identify days with temperature range (`Max Temp` minus `Min Temp`) greater than 25°C.
+        - When range is exceeded replace both Tmax and Tmin with NaN.
+        - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "4. Range"
    - Plot each dataset before and after correction has been made.
      - Use a single set of axis for each variable, and
      - provide a legend that indicates which variable is the original and which is after quality checking.
