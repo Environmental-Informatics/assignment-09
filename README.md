@@ -106,3 +106,16 @@ The following should be included in your GitHub repository:
 | 4.2. | Table with the number of corrections made for all three checks. | 2.5 pts |
 | 4.3. | Plots for each variable before and after quality checking. | 2.5 pts |
 | 5. | Tried GradeScope submission. | 2.0 pts |
+
+### Check that your code is working
+
+Output from the final statement in the template, `print("\nFinal changed values counts.....\n", ReplacedValuesDF)` should be as follows:
+
+```
+Final changed values counts.....
+                 Precip  Max Temp  Min Temp  Wind Speed
+1. No Data         2.0       2.0       2.0         0.0
+2. Gross Error    15.0       0.0       0.0         2.0
+3. Swapped         0.0       4.0       4.0         0.0
+4. Range Fail      0.0       8.0       8.0         0.0
+```
