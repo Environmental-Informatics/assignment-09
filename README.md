@@ -33,7 +33,7 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
      - minimum air temperature (°C), and
      - wind speed (m/s)
      
-2. Modify the Python script template called program-09.py to complete this assignment.  The template contains code defining function names and input/output parameters, as well as comment text describing what each function should accept as parameters, return as variables, and functionally what each function should do.  **DO NOT** rename the python script, and **DO NOT** change the name or order of the parameters being sent to or from each function.  The template defines functions that the autograder program is going to import and evaluate.  Changing the program name or the function definitions, will cause the autograder to fail even if your code "works" for you.  
+2. Modify the Python script template called **assignment-09_template.py** to complete this assignment.  The template contains code defining function names and input/output parameters, as well as comment text describing what each function should accept as parameters, return as variables, and functionally what each function should do.  **DO** rename the python script template to **program-09.py**, and **DO NOT** change the name or order of the parameters being sent to or from each function.  The template defines functions that the autograder program is going to import and evaluate.  Changing the program name or the function definitions, will cause the autograder to fail even if your code "works" for you.  
 
 2. Modify the Python script template called program-09.py so that it does the following:
 
