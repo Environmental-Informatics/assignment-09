@@ -33,12 +33,12 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
      - minimum air temperature (°C), and
      - wind speed (m/s)
      
-2. Modify the Python script template called **assignment-09_template.py** to complete this assignment.  The template contains code defining function names and input/output parameters, as well as comment text describing what each function should accept as parameters, return as variables, and functionally what each function should do.  
-   - **DO** rename the python script template to **program-09.py**, and **DO NOT** change the name or order of the parameters being sent to or from each function.  
+2. Modify the Python script template called **program_09_template.py** to complete this assignment.  The template contains code defining function names and input/output parameters, as well as comment text describing what each function should accept as parameters, return as variables, and functionally what each function should do.  
+   - **DO** rename the python script template to **program_09.py**, and **DO NOT** change the name or order of the parameters being sent to or from each function.  
    - The template defines functions that the autograder program is going to import and evaluate.  
-   - Any variation in the submission program name (**program-09.py**) or the function definitions (input parameters and returned parameters), will cause the autograder to fail even if your code "works" for you.  
+   - Any variation in the submission program name (**program_09.py**) or the function definitions (input parameters and returned parameters), will cause the autograder to fail even if your code "works" for you.  
 
-2. Modify the Python script template called program-09.py so that it does the following:
+2. Modify the Python script template called program_09.py so that it does the following:
 
    - Imports the entire file in as a DataFrame, using date as the index.
    - Completes the following data quality checks:
@@ -76,7 +76,7 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
 
 The following should be included in your GitHub repository:
 
-1. A working program called **program-09.py**, which conforms to the template provided with the original repository.
+1. A working program called **program_09.py**, which conforms to the template provided with the original repository.
 
 2. The original data file, **DataQualityChecking.txt**, provided with the repository.
 
