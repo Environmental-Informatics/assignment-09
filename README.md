@@ -96,12 +96,12 @@ The following should be included in your GitHub repository:
 | 1.1. | Import the entire file in as a DataFrame, using date as the index | 3.0 pts |
 | 1.2. | Check 1: Remove No Data values (set to -999) | 2.5 pts |
 | 1.3. | Check 2: Check for gross errors: 0 ≤ P ≤ 25; -25≤ T ≤ 35, 0 ≤ WS ≤ 10 | 5.0 pts |
-| 1.4. | Check 3: Swap Tmax and Tmin when Tmax is less than Tmin | 5.0 pts |
+| 1.4. | Check 3: Swap `Max Temp` and `Min Temp` when `Max Temp` is less than `Min Temp` | 5.0 pts |
 | 1.5. | Check 4: Check for temperature range greater than 25°C | 5.0 pts |
 | 1.6. | Where a check is failed, fix it or replace value with NaN and record the number of data points replaced for each check. | 2.5 pts |
-| 1.7. | Plot each dataset before and after correction has been made.  Use a single set of axis for each variable, and provide a legend that indiactes which is the original and which is after quality checking.  | 5.0 pts |
-| 1.8. | Output data that has passed the quality check into a new file with the same format as the input data file. | 5.0 pts |
-| 1.9. | Output information on failed checks to a separate Tab delimited file that can be imported into your Metadata file. | 5.0 pts |
+| 1.7. | Plot each dataset before and after correction has been made.  Use a single set of axis for each variable, and provide a legend that indicates which is the original and which is after quality checking.  | 5.0 pts |
+| 1.8. | Output data that has passed the quality check into a new file with the same format as the input data file. | 2.5 pts |
+| 1.9. | Output information on failed checks to a separate Tab delimited file that can be imported into your Metadata file. | 2.5 pts |
 | 2. | Working program | 5.0 pts |
 | 3. | Program should have clear and concise header and in-line comments | 2.5 pts |
 | 4. | Metadata file (PDF) that contains: | (7.5 pts) |
