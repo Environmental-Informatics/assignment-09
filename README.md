@@ -118,7 +118,7 @@ Output from the final statement in the template, `print("\nFinal changed values 
 Final changed values counts.....
                  Precip  Max Temp  Min Temp  Wind Speed
 1. No Data         2.0       2.0       2.0         0.0
-2. Gross Error    15.0       0.0       0.0         2.0
+2. Gross Error    15.0      14.0       2.0         2.0
 3. Swapped         0.0       4.0       4.0         0.0
-4. Range Fail      0.0       8.0       8.0         0.0
+4. Range Fail      0.0       5.0       5.0         0.0
 ```
