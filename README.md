@@ -56,7 +56,7 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
      - **Check 4:** Check for daily temperature range exceedence.
         - Identify days with temperature range (`Max Temp` minus `Min Temp`) greater than 25°C.
         - When range is exceeded replace both Tmax and Tmin with NaN.
-        - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "4. Range"
+        - Record the number of values replaced for each data type in the dataframe ReplacedValuesDF with the index "4. Range Fail"
    - Plot each dataset before and after correction has been made.
      - Use a single set of axis for each variable, and
      - provide a legend that indicates which variable is the original and which is after quality checking.
