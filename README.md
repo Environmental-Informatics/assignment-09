@@ -65,11 +65,11 @@ This week’s assignment is to conduct basic data quality checking on a meteorol
 
 3. Be sure that the script has a complete header comment block, appropriate in-line comments, and runs without intervention relative to where the datafile is stored in the repository.
 
-4. Create a metadata file called **METADATA.pdf** using Word, OpenOfiice or another document editor.  The metadata file shold contain the following information:
+4. Create a metadata file called **METADATA.pdf** using Word, OpenOffice or another document editor.  The metadata file should contain the following information:
 
    - Name of the program, name of the program creator and a short decription of what the program does.
    - Description of the data quality checks performed and how they influenced the contents of the file.
-   - Table with the number of corrections made for all three checks (should be properly referenced when discussing how data quality checks influenced the contents of the file \[see previous bullet\]). 
+   - Table with the number of corrections made for all checks (should be properly referenced when discussing how data quality checks influenced the contents of the file \[see previous bullet\]). 
    - Plots for each variable before and after quality checking (these should include descriptive captions, and be properly referenced from the text). 
 
 #### What to turn in...
@@ -106,7 +106,7 @@ The following should be included in your GitHub repository:
 | 3. | Program should have clear and concise header and in-line comments | 2.5 pts |
 | 4. | Metadata file (PDF) that contains: | (7.5 pts) |
 | 4.1. | Description of the data quality checks performed and how they influenced the contents of the file. | 2.5 pts |
-| 4.2. | Table with the number of corrections made for all three checks. | 2.5 pts |
+| 4.2. | Table with the number of corrections made for all checks. | 2.5 pts |
 | 4.3. | Plots for each variable before and after quality checking. | 2.5 pts |
 | 5. | Tried GradeScope submission. | 2.0 pts |
 
